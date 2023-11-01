@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{% static 'img/logo.png' %}" type="image/x-icon">
+    <title>Завьяловский школьный музей</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <meta name="yandex-verification" content="df64a1e80c156b61" />
+</head>
+<body style="background-color: rgba(25, 85, 115, 0.5);">
+    <div class="all">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary header">
+            <div class="container-fluid">
+                <img src="{% static 'img/logo.png' %}" class="head-logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-lg-0">
+                        {% block nav %}
+
+                        {% endblock %}
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        {% block content %}
+        
+        {% endblock %}
+        
+        {% block footer %}
+        <div class="footer" style="text-align: center;">
+            <div class="contacts">
+                {% for contact in contacts %}
+                <div class="contact">
+                    <a href="{%  if contact.url  %}{{  contact.url }} {% endif %}">
+                        <img src="{%  if contact.image  %}{{  contact.image.url }} {% endif %}">
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div> 
+        {% endblock %}
+    </div>
+
+    {% block scripts %}
+        <script src="{% static 'js/bootstrap.js' %}"></script>
+    {% endblock %}
+</body>
+</html>

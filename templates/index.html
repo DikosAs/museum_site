@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="ru">
+{% load static %} 
+<head>
+    <title>Завьяловский школьный музей</title>
+</head>
+<body>
+    {% block nav %}
+    <li class="nav-item">
+        <a class="nav-link active" href="{% url 'index' %}">Главная</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="{% url 'items' %}">Список предметов</a>
+    </li>
+    <li class="nav-item">
+        <a href="#" class="nav-link">Ещё что нибудь</a>
+    </li>
+    {% endblock %}
+
+    {% block content %}
+    <div class="content">
+        <p>Тут будет информация о музее</p>
+    </div>
+    {% endblock %}
+</body>
+</html>

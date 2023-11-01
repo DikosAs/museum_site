@@ -1,0 +1,94 @@
+body {
+    background-color: rgba(25, 85, 115, 0.5);
+}
+
+.all {
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.navbar {
+    border-radius: 7px;
+}
+
+.content, .footer {
+    margin-top: 20px;
+    background-color: aliceblue;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .data {
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
+
+@media (min-width: 992px) {
+    .nav-item {
+        text-align: center;
+        background-color: rgba(196, 194, 194, 0.595);
+        border-radius: 7px;
+        margin: 5px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 992px) {    
+    .nav-item {
+        text-align: center;
+        background-color: rgba(196, 194, 194, 0.595);
+        border-radius: 7px;
+        margin: 5px;
+        width: 99%;
+    }
+}
+
+.head-logo {
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Карточки с предметами */
+@media (min-width: 400px) {
+    .objact {
+        display: flex;
+    }
+}
+
+@media (max-width: 992px) {    
+    .objact {
+        text-align: center;
+    }
+} 
+
+.title > p {
+    margin: 0px;
+}
+
+.content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.objact {
+    border: 1px solid #0000004c;
+    border-radius: 5px;
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-bottom: 5px;
+}
+
+.objact-image {
+    width: clamp(50px, 10rem, 250px);
+    margin: 5px;
+}
+
+.objact > .info {
+    margin: 10px;
+}
+
+/* Контакты */

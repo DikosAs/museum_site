@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="ru">
+{% load static %}
+<head>
+    <title>Завьяловский школьный музей</title>
+</head>
+<body style="background-color: rgba(25, 85, 115, 0.5);">
+    {% block nav %}
+    <li class="nav-item">
+        <a class="nav-link" href="{% url 'index' %}">Главная</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" href="{% url 'items' %}">Список предметов</a>
+    </li>
+    <li class="nav-item">
+        <a href="#" class="nav-link">Ещё что нибудь</a>
+    </li>
+    {% endblock %}
+
+    {% block content %}
+    <div class="content">
+        <div class="objacts">
+            {% for objact in objacts %}
+            <div class="objact">
+                <img class="objact-image" src="{%  if objact.image  %}{{  objact.image.url }} {% else %} {% static 'img/adv.png' %} {% endif %}">
+                <div class="info">  
+                    <div class="title">
+                        <p>{{ objact.title }}</p>
+                    </div>
+                    <div class="description">
+                        <p>{{ objact.description }}</p>
+                    </div>
+                </div>
+            </div>
+            {%  endfor  %}
+        </div>
+    </div>
+    {% endblock %}
+</body>
+</html>
