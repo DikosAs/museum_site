@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-*(3=63a3q74s=r%k+z7&zz7&4x25)sbn^%k&4kv8e_f#%x*+%%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_extensions',
     'site_front'
 ]
 
@@ -123,7 +122,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 # STATIC_ROOT = Path.joinpath(BASE_DIR, "static/")
-STATIC_URL = 'static/'
+if DEBUG: 
+   STATIC_ROOT = Path.join(BASE_DIR, '/static')
+else:
+   STATIC_ROOT = Path.join(BASE_DIR, 'static') 
 STATICFILES_DIRS = [Path.joinpath(BASE_DIR, "static")]
 
 
@@ -132,5 +134,8 @@ STATICFILES_DIRS = [Path.joinpath(BASE_DIR, "static")]
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-MEDIA_ROOT = Path.joinpath(BASE_DIR, "media/")
+if DEBUG: 
+   MEDIA_ROOT = Path.join(BASE_DIR, 'media/')
+else:
+   MEDIA_ROOT = Path.join(BASE_DIR, 'media') 
 MEDIA_URL = "media/"
