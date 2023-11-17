@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="65000340-269f-41a5-8dcd-e3103bee86bf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/conf/fastcgi.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/conf/fastcgi_params" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/conf/koi-utf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/conf/koi-win" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/conf/mime.types" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/conf/nginx.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/conf/scgi_params" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/conf/uwsgi_params" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/conf/win-utf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/contrib/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/contrib/geo2nginx.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/contrib/unicode2nginx/koi-utf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/contrib/unicode2nginx/unicode-to-nginx.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/contrib/unicode2nginx/win-utf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/contrib/vim/ftdetect/nginx.vim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/contrib/vim/ftplugin/nginx.vim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/contrib/vim/indent/nginx.vim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/contrib/vim/syntax/nginx.vim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/docs/CHANGES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/docs/CHANGES.ru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/docs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/docs/OpenSSL.LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/docs/PCRE.LICENCE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/docs/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/docs/zlib.LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/html/50x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/logs/access.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/logs/error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/logs/nginx.pid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.25.3/nginx.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zavschulmuseum.ddns.net.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zavschulmuseum.ddns.net.key" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2Xn57bjaqy8Xlr2ulU2fSHUjw1F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65000340-269f-41a5-8dcd-e3103bee86bf" name="Changes" comment="" />
+      <created>1699251838058</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699251838058</updated>
+    </task>
+    <servers />
+  </component>
+</project>

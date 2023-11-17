@@ -1,4 +1,4 @@
-from django.db import models
+from django.db import modelsЁЁ
 from django.contrib import admin
 # python manage.py makemigrations
 # python manage.py migrate
